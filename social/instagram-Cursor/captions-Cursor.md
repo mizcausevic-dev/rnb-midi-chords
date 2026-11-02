@@ -3,7 +3,7 @@ This file is a draft. It has not been posted.
 
 Caption
 
-R&B MIDI Chords. Eight 8-bar studies of open voicings, with room left for a vocal. Two keys variations each, note-only MIDI between 65 and 100 BPM. Bass guides are separate files. The audio preview is a simple-synth render of study 01, not a master. No listening audition was performed for this build.
+R&B MIDI Chords. Eight 8-bar studies of open voicings, with room left for a vocal. Two keys variations each, note-only MIDI between 65 and 100 BPM. Bass guides are separate files. The audio preview is a simple-synth render of study 01 Pocket, variation A, all 8 bars at 74 BPM. The page records 25.95 seconds. preview, not a master. No human listening audition was performed for this build.
 
 Hashtags
 
@@ -11,7 +11,7 @@ Hashtags
 
 Alt text, 1080x1080
 
-Illustration of open chord spacing on warm paper, with a pale band across the top left for a vocal. Not a photograph of a studio or of performers.
+Illustration of open chord spacing on warm paper, with a pale band across the top for a vocal. Not a photograph of a studio or of performers.
 
 Alt text, 1080x1350
 
