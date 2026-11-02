@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Open chord under a vocal band">
+  <rect width="32" height="32" fill="#14110f"/>
+  <rect width="32" height="10" fill="#f7f1e8"/>
+  <rect y="10" width="32" height="2" fill="#c4843a"/>
+  <circle cx="16" cy="17" r="1.7" fill="#f7f1e8"/>
+  <circle cx="16" cy="22" r="1.7" fill="#c4843a"/>
+  <circle cx="16" cy="28" r="1.7" fill="#f7f1e8"/>
+</svg>

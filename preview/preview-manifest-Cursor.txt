@@ -1,0 +1,61 @@
+preview, not a master
+{
+  "arrangement_path": "midi/arrangement.mid",
+  "arrangement_sha256": "4b109a0220a7d159761ff93f12bc4ce051af36c006497f642cc8c60b7652e33d",
+  "encode": "libmp3lame CBR 192 kbps, mono source",
+  "excerpt": {
+    "bars": "1-8, the full container",
+    "end_tick": 30720,
+    "sequencing": "keys progression and bass guide, variation A, for the full 8 bars",
+    "start_tick": 0,
+    "study": "s01",
+    "transposition": "none"
+  },
+  "intermediate_wav": "build/preview.wav",
+  "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
+  "intermediate_wav_sha256": "5409da94579e6b8c818e2ee0ab451cdd2bbe3dbb7aeaf2bc46aa32aabca8da15",
+  "label": "preview, not a master",
+  "listening": "No human listening audition was performed for this build.",
+  "mapping": {
+    "bass-guide": "sine at the written pitch, short attack, held for the written duration",
+    "keys-progression": "sine plus a quiet triangle, short attack, held for the written duration"
+  },
+  "mp3_encode_command": [
+    "ffmpeg",
+    "-y",
+    "-i",
+    "/home/runner/work/rnb-midi-chords/rnb-midi-chords/build/preview.wav",
+    "-codec:a",
+    "libmp3lame",
+    "-b:a",
+    "192k",
+    "/home/runner/work/rnb-midi-chords/rnb-midi-chords/preview/preview.mp3"
+  ],
+  "mp3_path": "preview/preview.mp3",
+  "mp3_sha256": "5689d41b646749a94866cc003f88951a5514c57534f12fca045cda09a36aac0e",
+  "pack_id": "rnb-midi-chords",
+  "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+  "renderer": "simple-synth-1.0.0",
+  "renderer_note": "These voices are preview mappings. They are not encoded in the MIDI file.",
+  "rounding": "sample = floor(seconds * sample_rate + 0.5), computed from tick 0; intervals are not summed",
+  "sample_peak": 18167,
+  "sample_peak_dbfs": -5.123334375395089,
+  "sample_peak_note": "This is a sample peak of the integer mix after scaling. It is not a true-peak measurement and it is not LUFS.",
+  "score_seconds": 25.945952,
+  "score_sha256": "91ceec60829a06a9767147ec9e7c0394679513dbbf354db9e6506b67137ab812",
+  "seconds_encoded": 25.945941,
+  "source_parts": [
+    {
+      "id": "s01.keys.a",
+      "path": "midi/s01-pocket/keys-a.mid",
+      "sha256": "dd2c7ed7dc50fc5da2ef6024fdb9a8f2b879d78154b13e0e361ffff1ebd5f305"
+    },
+    {
+      "id": "s01.bass.a",
+      "path": "midi/s01-pocket/bass-a.mid",
+      "sha256": "d423315382ae09de84df60c8e47411c47686dceb51081f8e0bf6036d5ea5a04b"
+    }
+  ],
+  "tempo_authority": "encoded MIDI tempo",
+  "tempo_us": 810811
+}
