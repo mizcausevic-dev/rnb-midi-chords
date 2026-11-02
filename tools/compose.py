@@ -102,11 +102,12 @@ def studies():
          "pitch_classes": [2, 4, 5, 7, 9, 10, 0],
          "departures": ["Bar 4 is A7. C#4 (61) is the third and is flagged. The E and G beside it stay in D natural minor."],
          "seed": 7401,
-         "harmonic_intent": "Dm9, Gm9, Bbmaj7, A7, then a lower Dm9, Gm11, Bbmaj7, and Am7. The last chord is Am7, not a return to D.",
+         "harmonic_intent": "Variation A is Dm9, Gm9, Bbmaj7, A7, then a lower Dm9, Gm11, Bbmaj7, and Am7. The last chord is Am7, not a return to D. Those extension names are variation A. Variation B does not sound them.",
          "changes": ["Dm9", "Gm9", "Bbmaj7", "A7", "Dm9", "Gm11", "Bbmaj7", "Am7"],
+         "changes_b": ["F5", "G5", "Bb5", "E C# G", "D A E", "F5", "F D A", "A5"],
          "change_bars": [1, 1, 1, 1, 1, 1, 1, 1],
-         "pitches": "Dm9 is F A C E. Gm9 is Bb D F A. Bbmaj7 is D F A, root omitted. A7 is C# E G. Gm11 is Bb D F C. Am7 is C E G A.",
-         "identity": "Each chord in variation A enters on the downbeat and leaves beat 4 empty. Variation B waits until beat 2 and spreads the chord into three notes a fourth, fifth, or sixth apart.",
+         "pitches": "Variation A: Dm9 is F A C E. Gm9 is Bb D F A. Bar 3 Bbmaj7 is D F A, root omitted. Bar 7 is Bb F A, third omitted. A7 is C# E G. Gm11 is Bb D F C. Am7 is C E G A. Variation B is not those voicings. Its keys are bare fifths on F, G, Bb, F, and A, plus D A E, F D A, and the A7 tritone E C# G.",
+         "identity": "Each chord in variation A enters on the downbeat and leaves beat 4 empty. Variation B waits until beat 2. Its keys are mostly bare fifths: F, G, Bb, then F and A again. Bar 5 is D A E. Bar 7 is F D A, and bass B plays F under it, not Bb. Bar 4 is E C# G. C# up to G is a tritone, not a fourth, fifth, or sixth.",
          "limitations": "Bass A fits variation A. Bass B fits variation B. The empty beat is space, not a missing chord.",
          "spacing": "Variation A is close voicing, top note at or below E5. Variation B uses three open notes and does not reach E5."},
         {"id": "s02", "slug": "s02-borrowed", "title": "Borrowed", "bpm": 82, "bars": 8,
@@ -124,7 +125,7 @@ def studies():
         {"id": "s03", "slug": "s03-pedal", "title": "Pedal", "bpm": 68, "bars": 8,
          "tonic": "A", "tonal_reference": "A", "collection_name": "A natural minor",
          "pitch_classes": [9, 11, 0, 2, 4, 5, 7], "departures": [], "seed": 6803,
-         "harmonic_intent": "The bass holds A, then F, then D, then A. The keys move Am9, Cmaj7, Fmaj7, Em7, and the same shape a step lower in the second half before returning to Am.",
+         "harmonic_intent": "Bass A plays A, A, F, E, A, F, D, A. The keys play Am9, Cmaj7, Fmaj7, Em7, Am9, Fmaj7, Dm7, and Am. The second half is not the first half moved down a step.",
          "changes": ["Am9", "Cmaj7", "Fmaj7", "Em7", "Am9", "Fmaj7", "Dm7", "Am"],
          "change_bars": [1, 1, 1, 1, 1, 1, 1, 1],
          "pitches": "Am9 is C E G B. Cmaj7 is E G B. Fmaj7 is F A C E. Em7 is D E G B. Dm7 is F A C. The last Am is A E A.",
@@ -134,13 +135,13 @@ def studies():
         {"id": "s04", "slug": "s04-two-register", "title": "Two Register", "bpm": 90, "bars": 8,
          "tonic": "G", "tonal_reference": "G", "collection_name": "G major",
          "pitch_classes": [7, 9, 11, 0, 2, 4, 6], "departures": [], "seed": 9004,
-         "harmonic_intent": "Gmaj9, Em7, Am7, D9, then G, Em7, Cmaj7, D7. Beat 1 is the shell. Beat 3 is a higher color tone still under the vocal ceiling.",
-         "changes": ["Gmaj9", "Em7", "Am7", "D9", "G", "Em7", "Cmaj7", "D7"],
+         "harmonic_intent": "Gmaj9, E and B, Am7, D7, then G, E and B, Cmaj7, and D major. Bars 2 and 6 are only E and B over E, not Em7. Bar 4 is D7: bass D with C and F#, and the beat-3 tone is D, not a ninth. Bar 8 is D A F#, D major, not D7. Beat 1 is the shell. Beat 3 is a higher color tone still under the vocal ceiling.",
+         "changes": ["Gmaj9", "E5", "Am7", "D7", "G", "E5", "Cmaj7", "D"],
          "change_bars": [1, 1, 1, 1, 1, 1, 1, 1],
-         "pitches": "Variation A, beat 1 then beat 3: B F# then A, B E then B, C G then C, C F# then D, B F# then G, B E then B, E B then C, D A then F#. All of those pitch classes are inside G major.",
+         "pitches": "Variation A, beat 1 then beat 3: B F# then A, B E then B, C G then C, C F# then D, B F# then G, B E then B, E B then C, D A then F#. Bars 2 and 6 are E and B, not Em7. Bar 4 is D7, not D9. Bar 8 is D major, not D7. All of those pitch classes are inside G major.",
          "identity": "Two attacks in every bar, on beat 1 and beat 3. Variation B swaps them: the color comes first and the shell answers.",
          "limitations": "The two attacks are one progression, not two songs. Use one bass file with one keys variation.",
-         "spacing": "Beat 1 sits around B3 to E4. Beat 3 sits between F#4 and D5 and stays under E5."},
+         "spacing": "Beat 1 sits from B3 to B4. Bar 7 beat 1 is E4 and B4. Beat 3 sits between F#4 and D5 and stays under E5."},
         {"id": "s05", "slug": "s05-plagal", "title": "Plagal", "bpm": 78, "bars": 8,
          "tonic": "Bb", "tonal_reference": "Bb", "collection_name": "Bb major",
          "pitch_classes": [10, 0, 2, 3, 5, 7, 9],
@@ -156,10 +157,10 @@ def studies():
         {"id": "s06", "slug": "s06-late-sus", "title": "Late Sus", "bpm": 86, "bars": 8,
          "tonic": "F", "tonal_reference": "F", "collection_name": "F major",
          "pitch_classes": [5, 7, 9, 10, 0, 2, 4], "departures": [], "seed": 8606,
-         "harmonic_intent": "Fsus2, Bbmaj9, C11, Fmaj7, Gm9, Am7, Bb6, C9. The suspensions are the first three chords. They resolve to Fmaj7, not before.",
-         "changes": ["Fsus2", "Bbmaj9", "C11", "Fmaj7", "Gm9", "Am7", "Bb6", "C9"],
+         "harmonic_intent": "Fsus2, Bbmaj9, E F Bb, Fmaj7, Gm9, Am7, Bb6, C9. The third bar's keys are E F Bb. C is only in the bass, so those keys are not a C11. Fsus2 is the suspension. It resolves at Fmaj7, not before.",
+         "changes": ["Fsus2", "Bbmaj9", "E F Bb", "Fmaj7", "Gm9", "Am7", "Bb6", "C9"],
          "change_bars": [1, 1, 1, 1, 1, 1, 1, 1],
-         "pitches": "Fsus2 is F G C. Bbmaj9 is C D F A. C11 is Bb C E F. Fmaj7 is E F A. Gm9 is Bb D F A. Am7 is C E G. Bb6 is D G Bb. C9 is D E Bb.",
+         "pitches": "Fsus2 is F G C. Bbmaj9 is C D F A. The third bar's keys are E F Bb, and variation A also sounds E5. C3 is only in the bass. Fmaj7 is E F A. Gm9 is Bb D F A. Am7 is C E G. Bb6 is D G Bb. C9 is D E Bb.",
          "identity": "Variation A starts every chord on the second eighth and holds it for three beats. Variation B moves the same harmony onto beat 4 as a short stab.",
          "limitations": "The late entrance is the pocket. Do not move these chords to the downbeat and call it the same study.",
          "spacing": "Four notes only where the extension needs them. Several chords are three notes."},
@@ -168,22 +169,23 @@ def studies():
          "pitch_classes": [4, 6, 7, 9, 11, 0, 2],
          "departures": ["Bar 7 is B7. D#4 (63) is flagged. F# and A beside it are inside E natural minor."],
          "seed": 7007,
-         "harmonic_intent": "Em9, silence, Am9, silence, Cmaj7, silence, B7, silence. The empty bars are the vocal bars.",
+         "harmonic_intent": "Variation A is Em9, silence, Am9, silence, Cmaj7, silence, B7, silence. The empty bars are the vocal bars in variation A only. Variation B has a keys note on every bar.",
          "changes": ["Em9", "rest", "Am9", "rest", "Cmaj7", "rest", "B7", "rest"],
+         "changes_b": ["Em9", "B", "Am9", "C", "Cmaj7", "E", "B7", "F#"],
          "change_bars": [1, 1, 1, 1, 1, 1, 1, 1],
          "pitches": "Em9 is G B D F#. Am9 is G B C E. Cmaj7 is G B E. B7 is D# F# A.",
          "identity": "A chord only on the odd bars, held for that one bar. Variation B fills the even bars with a single whole-note guide tone.",
          "limitations": "The rests are written. They are not a loop that failed to copy.",
-         "spacing": "The chord uses the middle register. The empty bar has no keys notes at all."},
+         "spacing": "The chord uses the middle register. Variation A leaves the even bars empty, with no keys notes. Variation B puts one whole-note guide tone on each even bar: B, C, E, then F#."},
         {"id": "s08", "slug": "s08-no-tonic", "title": "No Tonic", "bpm": 96, "bars": 8,
          "tonic": "none", "tonal_reference": "no fixed tonic", "collection_name": "the eight chords, no single tonic",
          "pitch_classes": [0, 1, 2, 3, 4, 5, 6, 7, 9, 11],
          "departures": [],
          "seed": 9608,
-         "harmonic_intent": "Em7, A7, Dm7, G7, F#m7, B7, Em7, A7. The line never lands on one tonic. Calling any one chord the key would be a guess. C#, D#, and F# are inside the declared set because A7, B7, and F#m7 use them.",
-         "changes": ["Em7", "A7", "Dm7", "G7", "F#m7", "B7", "Em7", "A7"],
+         "harmonic_intent": "Em7, A7, Dm7, G7, F#m7, B7, then Em and A. The last Em is E G B, with no seventh. The last A is E A C#, with no seventh. The line never lands on one tonic. Calling any one chord the key would be a guess. C#, D#, and F# are inside the declared set because A7, B7, and F#m7 use them.",
+         "changes": ["Em7", "A7", "Dm7", "G7", "F#m7", "B7", "Em", "A"],
          "change_bars": [1, 1, 1, 1, 1, 1, 1, 1],
-         "pitches": "Each bar is three shell tones in quarter notes, and the fourth quarter repeats the first: G B D G, G C# E G, F A C F, F B D F, F# A C# F#, F# A D# F#, then E G B E and E A C# E an octave lower.",
+         "pitches": "Each bar is three shell tones in quarter notes, and the fourth quarter repeats the first: G3 B3 D4 G3, G3 C#4 E4 G3, F3 A3 C4 F3, F3 B3 D4 F3, F#3 A3 C#4 F#3, F#3 A3 D#4 F#3, then E3 G3 B3 E3 and E3 A3 C#4 E3. The last two are not an octave below the first two. Bar 2's C#4 returns at the same pitch in bar 8.",
          "identity": "Variation A plays one note at a time, a quarter each. Variation B stacks the three shell tones and holds them.",
          "limitations": "There is no tonic to resolve to. The last A7 is the end of the phrase, not a mistake.",
          "spacing": "The arpeggio stays between E3 and E4. The stacked variation sounds those three pitches together."},
@@ -462,6 +464,18 @@ def assert_identities(parts):
     return {"studies": report, "method": "keys variations differ; variation A attack times are not shared"}
 
 
+def _study_row(study):
+    row = {key: study[key] for key in (
+        "id", "slug", "title", "bpm", "tempo_us", "effective_bpm", "bars", "meter", "bar_ticks",
+        "tonic", "tonal_reference", "collection_name", "pitch_classes", "departures", "seed",
+        "harmonic_intent", "changes", "change_bars", "pitches", "identity", "limitations",
+        "spacing", "vocal_ceiling", "stochastic_draws",
+    )}
+    if "changes_b" in study:
+        row["changes_b"] = study["changes_b"]
+    return row
+
+
 def compose():
     catalog_studies = studies()
     parts = []
@@ -500,12 +514,7 @@ def compose():
         "seed_meaning": "Seeds identify studies. Nothing is random.",
         "core_part_count": len(core), "reference_part_count": len(refs),
         "range_statement": "Keys stay between MIDI 48 and 76, E5, at most four notes. That ceiling is the room for a vocal. Bass guides are monophonic, MIDI 28 to 52, and are not part of the core count.",
-        "studies": [{key: study[key] for key in (
-            "id", "slug", "title", "bpm", "tempo_us", "effective_bpm", "bars", "meter", "bar_ticks",
-            "tonic", "tonal_reference", "collection_name", "pitch_classes", "departures", "seed",
-            "harmonic_intent", "changes", "change_bars", "pitches", "identity", "limitations",
-            "spacing", "vocal_ceiling", "stochastic_draws",
-        )} for study in catalog_studies],
+        "studies": [_study_row(study) for study in catalog_studies],
         "parts": [{
             "id": part["id"], "study_id": part["study_id"], "role": part["role"], "variation": part["variation"],
             "core": part["core"], "channel": part["channel"], "path": part["path"], "notes": len(part["notes"]),
