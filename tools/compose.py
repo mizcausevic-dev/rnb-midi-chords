@@ -151,7 +151,7 @@ def studies():
          "change_bars": [2, 2, 2, 2],
          "pitches": "Bbmaj7 is D F A. Ebmaj7 is G Bb D. Ebm is Eb Gb Bb. Bbmaj9 is C F A.",
          "identity": "Each chord in variation A is held for two bars. Variation B uses one bar of the chord, then one bar on a single tone: G, Gb, F, then D.",
-         "limitations": "Gb belongs only to the Ebm bar. It is not a new key.",
+         "limitations": "Gb is outside Bb major and is flagged. Variation A uses it only in the Ebm bars. Variation B also holds that Gb alone on bar 4, before Ebm. It is not a new key.",
          "spacing": "Three-note chords with a gap of a third or a fourth between voices."},
         {"id": "s06", "slug": "s06-late-sus", "title": "Late Sus", "bpm": 86, "bars": 8,
          "tonic": "F", "tonal_reference": "F", "collection_name": "F major",
