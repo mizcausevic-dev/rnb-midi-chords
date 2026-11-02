@@ -17,7 +17,7 @@ PARAGRAPHS = [
     "Keys stay between MIDI 48 and 76, E5, with at most four notes sounding. That ceiling is the room for a vocal. Bass guides stay between 28 and 52 and are monophonic. C4 is 60. The resolution is 960 ticks per quarter note. Offsets are 0. These studies are original.",
     PROGRAM,
     "The preview synth uses a sine plus a quiet triangle for the keys and a sine for the bass. That mapping is documented. It is not a program change.",
-    "The primary preview is study 01, Pocket, variation A, for all 8 bars: the keys file and bass guide A together. At 74 BPM those eight bars last just under 26 seconds. The other studies are in the MIDI and are not in that audio file. "
+    "The primary preview is study 01, Pocket, variation A, for all 8 bars: the keys file and bass guide A together. At 74 BPM the page records 25.95 seconds. The other studies are in the MIDI and are not in that audio file. "
     + PREVIEW_LINE
     + ". The film takes its audio from that preview file and shows the words "
     + ON_PICTURE
