@@ -30,7 +30,7 @@ Limitations: The two attacks are one progression, not two songs. Use one bass fi
 
 Each chord in variation A is held for two bars. Variation B uses one bar of the chord, then one bar on a single tone: G, Gb, F, then D.
 
-Limitations: Gb belongs only to the Ebm bar. It is not a new key.
+Limitations: Gb is outside Bb major and is flagged. Variation A uses it only in the Ebm bars. Variation B also holds that Gb alone on bar 4, before Ebm. It is not a new key.
 
 ## s06 Late Sus
 
