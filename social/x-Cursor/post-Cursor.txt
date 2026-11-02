@@ -2,4 +2,4 @@ DRAFT
 This label is not the post body.
 
 POST BODY
-R&B MIDI Chords: 8 studies, open voicings with room for a vocal, two variations each, note-only MIDI, 65-100 BPM. Bass stays separate. Study 01 Pocket, variation A, 8 bars at 74 BPM. The page records 25.95 seconds. preview, not a master. No listening audition was performed.
+R&B MIDI Chords: 8 studies, open voicings, two variations each, note-only MIDI, 65-100 BPM. Bass stays separate. Study 01 Pocket, variation A, 8 bars at 74 BPM. The page records 25.95 seconds. preview, not a master. No human listening audition was performed for this build.
