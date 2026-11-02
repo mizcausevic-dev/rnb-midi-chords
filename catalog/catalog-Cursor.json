@@ -708,7 +708,7 @@
       "harmonic_intent": "Two bars of Bbmaj7, two of Ebmaj7, two of Ebm, two of Bbmaj9. The minor iv is the color, then the major I returns with a ninth.",
       "id": "s05",
       "identity": "Each chord in variation A is held for two bars. Variation B uses one bar of the chord, then one bar on a single tone: G, Gb, F, then D.",
-      "limitations": "Gb belongs only to the Ebm bar. It is not a new key.",
+      "limitations": "Gb is outside Bb major and is flagged. Variation A uses it only in the Ebm bars. Variation B also holds that Gb alone on bar 4, before Ebm. It is not a new key.",
       "meter": "4/4",
       "pitch_classes": [
         10,
