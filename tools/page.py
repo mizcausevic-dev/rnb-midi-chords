@@ -143,7 +143,8 @@ SCRIPT = r"""  <script>
       });
       ruler.innerHTML = "";
       let bar = 0;
-      item.changes.forEach((name, index) => {
+      const names = variation === "b" && item.changes_b ? item.changes_b : item.changes;
+      names.forEach((name, index) => {
         const span = item.change_bars[index];
         const mark = document.createElement("div");
         mark.className = "change";
@@ -342,6 +343,7 @@ def render_page(catalog: dict, report: dict, preview: dict, film: dict) -> str:
                 "harmonic_intent": study["harmonic_intent"],
                 "pitches": study["pitches"],
                 "changes": study["changes"],
+                "changes_b": study.get("changes_b"),
                 "change_bars": study["change_bars"],
                 "tempo_us": study["tempo_us"],
                 "spell": SPELL[study["id"]],
