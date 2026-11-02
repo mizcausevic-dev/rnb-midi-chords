@@ -4,7 +4,7 @@ Container lengths, tempos, and collections were fixed before note generation. No
 
 ## s01 Pocket
 
-Each chord in variation A enters on the downbeat and leaves beat 4 empty. Variation B waits until beat 2 and spreads the chord into three notes a fourth, fifth, or sixth apart.
+Each chord in variation A enters on the downbeat and leaves beat 4 empty. Variation B waits until beat 2. Its keys are mostly bare fifths: F, G, Bb, then F and A again. Bar 5 is D A E. Bar 7 is F D A, and bass B plays F under it, not Bb. Bar 4 is E C# G. C# up to G is a tritone, not a fourth, fifth, or sixth.
 
 Limitations: Bass A fits variation A. Bass B fits variation B. The empty beat is space, not a missing chord.
 
