@@ -2,7 +2,7 @@
 
 Eight studies of open voicings, a matched byte check, and a simple-synth preview that is not a master
 
-DRAFT. The GitHub repository is https://github.com/mizcausevic-dev/rnb-midi-chords and it is public. The catalog page is https://mizcausevic-dev.github.io/rnb-midi-chords/ .
+DRAFT. The GitHub repository is https://github.com/mizcausevic-dev/rnb-midi-chords and it is public. The catalog page is https://mizcausevic-dev.github.io/rnb-midi-chords/ . The screening room is https://mizcausevic-dev.github.io/rnb-midi-chords/media.html .
 
 Tags: midi, rnb, chords, music-production, composition
 
@@ -16,7 +16,7 @@ No program changes are encoded. A conventional GM player will normally use its d
 
 The preview synth uses a sine plus a quiet triangle for the keys and a sine for the bass. That mapping is documented. It is not a program change.
 
-The primary preview is study 01, Pocket, variation A, for all 8 bars: the keys file and bass guide A together. At 74 BPM those eight bars last just under 26 seconds. The other studies are in the MIDI and are not in that audio file. preview, not a master. The film takes its audio from that preview file and shows the words preview, not master on the picture and in the WebVTT captions.
+The primary preview is study 01, Pocket, variation A, for all 8 bars: the keys file and bass guide A together. At 74 BPM the page records 25.95 seconds. The other studies are in the MIDI and are not in that audio file. preview, not a master. The film takes its audio from that preview file and shows the words preview, not master on the picture and in the WebVTT captions.
 
 No human listening audition was performed for this build. The validator reopened the MIDI bytes and compared them with the canonical score. That is a structural check. The sample peak written beside the preview is the peak of the integer mix. It is not LUFS and it is not a true-peak reading. Nothing in this build is claimed as a master.
 
