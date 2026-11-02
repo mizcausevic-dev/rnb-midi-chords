@@ -26,8 +26,26 @@ jobs:
         run: python3 tools/build_pack.py
       - name: Commit delivered files
         run: |
+          set +e
           git config user.name "mizcausevic-dev"
           git config user.email "mizcausevic-dev@users.noreply.github.com"
           git add -A
-          git commit -m "Materialize R&B MIDI Chords [skip ci]"
-          git push
+          git status --short > /tmp/git-status.txt
+          git commit -m "Materialize R&B MIDI Chords [skip ci]" > /tmp/git-commit.txt 2>&1
+          commit_code=$?
+          git push origin HEAD:main > /tmp/git-push.txt 2>&1
+          push_code=$?
+          {
+            echo "### git"
+            echo "commit_exit=$commit_code"
+            echo '```'
+            cat /tmp/git-status.txt
+            echo
+            cat /tmp/git-commit.txt
+            echo '```'
+            echo "push_exit=$push_code"
+            echo '```'
+            cat /tmp/git-push.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          test "$commit_code" -eq 0 && test "$push_code" -eq 0
